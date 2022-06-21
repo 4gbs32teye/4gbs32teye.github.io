@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>The Elements of Probability | Teams Book</title>
+<meta name="author" content="..">
+<meta name="generator" content="bookdown 0.26 with bs4_book()">
+<meta property="og:title" content="The Elements of Probability | Teams Book">
+<meta property="og:type" content="book">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The Elements of Probability | Teams Book">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<meta name="description" content="Terminology and Definitions Event : A set, class, or group of possible uncertain outcomes. Compound Event : An event that can be decomposed into sub-events. Elementary Event : An event that cannot...">
+<meta property="og:description" content="Terminology and Definitions Event : A set, class, or group of possible uncertain outcomes. Compound Event : An event that can be decomposed into sub-events. Elementary Event : An event that cannot...">
+<meta name="twitter:description" content="Terminology and Definitions Event : A set, class, or group of possible uncertain outcomes. Compound Event : An event that can be decomposed into sub-events. Elementary Event : An event that cannot...">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Teams Book</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="active" href="the-elements-of-probability.html">The Elements of Probability</a></li>
+<li><a class="" href="supporting-information.html">Supporting Information</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="the-elements-of-probability" class="section level1 unnumbered">
+<h1>The Elements of Probability<a class="anchor" aria-label="anchor" href="#the-elements-of-probability"><i class="fas fa-link"></i></a>
+</h1>
+<div id="terminology-and-definitions" class="section level2 unnumbered">
+<h2>Terminology and Definitions<a class="anchor" aria-label="anchor" href="#terminology-and-definitions"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Event</strong> : A set, class, or group of possible uncertain outcomes.</p>
+<ul>
+<li>
+<strong>Compound Event</strong> : An event that can be decomposed into sub-events.</li>
+<li>
+<strong>Elementary Event</strong> : An event that cannot be further decomposed.</li>
+</ul>
+<p><strong>Event Space</strong> : Also known as the <strong>Sample Space</strong>, is the set of all possible
+elementary events. The sample represents the universe of all possible events. It
+can be thought of as the largest possible compound event.</p>
+<p><strong>Mutually Exclusive and Collectively Exhaustive (MECE)</strong> : A sample in which no
+more than one event can occur at a time (mutually exclusive) and that at least
+one of the events will occur (collectively exhaustive).</p>
+<p><strong>The Axioms of Probability</strong></p>
+<ol style="list-style-type: decimal">
+<li>The probability of any event is non-negative.</li>
+<li>The probability of the sample space <span class="math inline">\(S\)</span> is <span class="math inline">\(Pr\{S\}=1\)</span>. In other words, the
+sum of probabilities for all possible outcomes is 1.</li>
+<li>The probability that one or the other of two mutually exclusive events
+occurs is the sum of their probabilities.</li>
+</ol>
+<p><strong>Law of Large Numbers</strong> : The <em>frequentist interpretation</em> that the ratio of the
+number of occurances of the event <span class="math inline">\(\{E\}\)</span> to the total number of opportunities for
+<span class="math inline">\(\{E\}\)</span> in a sample will approach the probability of <span class="math inline">\(\{E\}\)</span>, written as <span class="math inline">\(Pr\{E\}\)</span>.</p>
+<p><strong>Complement</strong> : The (usually compound) event where <span class="math inline">\(\{E\}\)</span> does not occur. Its
+probability can be expressed as, <span class="math display">\[Pr\{E^C\} = 1 - Pr\{E\}\]</span></p>
+<p><strong>Joint Probability</strong> : The probability that more than one event will occur, expressed
+as their intersection (<span class="math inline">\(\cap\)</span>). For the simple case where there are only two events,
+this is represented by the region where two circles overlap on a Venn diagram.
+<span class="math display">\[Pr\{E_1 \cap E_2\} = Pr\{E_1 \ \ and \ \ E_2\}\]</span></p>
+<p><strong>Additive Law of Probability</strong> : The probability that at least one event will occur
+expressed as their union (<span class="math inline">\(\cup\)</span>). For the simple case where there are only two
+events, this is represented by the region encompassed by <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span> on a Venn
+diagram, subtracting where they intersect to avoid double-counting.
+<span class="math display">\[Pr\{E_1 \cup E_2\} = Pr\{E_1\} + Pr\{E_2\} - Pr\{E_1 \cap E_2\}\]</span></p>
+<p><strong>DeMorgan’s Laws</strong></p>
+<ul>
+<li>The complement of a union of two events equals the intersection of the
+complements of the two individual events.</li>
+</ul>
+<p><span class="math display">\[Pr\{(A \cup B)^C\} = Pr\{A^C \cap B^C\}\]</span></p>
+<ul>
+<li>The complement of the intersection of two events equals the union of the
+complements of the two individual events.</li>
+</ul>
+<p><span class="math display">\[Pr\{(A \cap B)^C\} = Pr\{A^C \cup B^C\}\]</span></p>
+<p><strong>Conditional Probability</strong> : Expressed as <span class="math inline">\(Pr\{E_1 | E_2\}\)</span> for the simple case
+of two events. It can be read as “the probability of <span class="math inline">\(E_1\)</span> given <span class="math inline">\(E_2\)</span>”. Here, <span class="math inline">\(E_2\)</span>
+is the <em>conditioning event</em>, which essentially defines the sample space. In other
+words, the “given-ness” of <span class="math inline">\(E_2\)</span> means that in this case only events where <span class="math inline">\(E_2\)</span>
+occurred are considered in the calculation. The probability of <span class="math inline">\(E_1\)</span> is the ratio
+of the intersection of <span class="math inline">\(E_1\)</span> with <span class="math inline">\(E_2\)</span>, and <span class="math inline">\(E_2\)</span>:
+<span class="math display">\[Pr\{E_1 | E_2\} = \frac{Pr\{E_1 \cap E_2\}}{Pr\{E_2\}}\]</span></p>
+<p><strong>Multiplicative Law of Probability</strong> : A rearrangement of the definition of
+conditional probability. Namely,</p>
+<p><span class="math display">\[Pr\{E_1 \cap E_2\} = Pr\{E_1 | E_2\} * Pr\{E_2\}\]</span></p>
+<p>Or, in a more familiar form, for independent events,</p>
+<p><span class="math display">\[Pr\{E_1 \cap E_2\} = Pr\{E_1\} * Pr\{E_2\}\]</span></p>
+<p><strong>The Law of Total Probability</strong> : Consider a set of <span class="math inline">\(N\)</span> mutually exclusive collectively
+exhaustive (MECE) events, <span class="math inline">\(\{E_i\}\)</span>. If there is another event <span class="math inline">\(\{A\}\)</span> also defined within
+this sample space, its probability can be computed by summing the joint probabilities.</p>
+<p><span class="math display">\[Pr\{A\} = \displaystyle\sum_{i=1}^{N} Pr\{A \cap E_i\} = \displaystyle\sum_{i=1}^{N} Pr\{A | E_i\} * Pr\{E_i\}\]</span></p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="index.html">Welcome</a></div>
+<div class="next"><a href="supporting-information.html">Supporting Information</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#the-elements-of-probability">The Elements of Probability</a></li>
+<li><a class="nav-link" href="#terminology-and-definitions">Terminology and Definitions</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Teams Book</strong>" was written by ... It was last built on 2022-06-21.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>
